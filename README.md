@@ -31,6 +31,7 @@ This project demonstrates the capabilities of modern **agentic AI systems**, com
 ```bash
 git clone https://github.com/Shristy-29/agentic-chatbot.git
 cd agentic-chatbot
+```bash
 
 2. **Create a virtual environment**
 ```bash
@@ -41,16 +42,19 @@ source venv/bin/activate
 # On Windows
 python -m venv venv
 venv\Scripts\activate
+```bash
 
 3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
+```bash
 
 4. **Setup environment variables**
 Copy .env.example to .env and add your API keys
 ```bash
 cp .env.example .env  # Mac/Linux
 copy .env.example .env  # Windows
+```bash
 
 ## **Usage**
 
