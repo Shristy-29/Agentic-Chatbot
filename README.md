@@ -120,19 +120,3 @@ python frontend.py
 
 ## IMPORTANT
 ### Make sure backend python script is running in a separate terminal
-
-# Project Structure
-
-agentic-chatbot/
-│
-├─ backend/
-│   ├─ ai_agent.py
-│   └─ backend.py
-│
-├─ frontend/
-│   └─ frontend.py
-│
-├─ .env.example
-├─ .gitignore
-├─ requirements.txt
-└─ README.md
