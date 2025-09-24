@@ -1,3 +1,30 @@
+# Agentic Chatbot
+
+## Project Overview
+The **Agentic Chatbot** is an AI-powered conversational agent designed to interact intelligently with users by leveraging **ReAct agents** and **large language models (LLMs)**. It combines reasoning, tool usage, and natural language understanding to provide context-aware responses and execute actions when required.
+
+The chatbot is built with a **modular architecture**:
+- **LangChain** powers the ReAct agents and integrates external tools.
+- **FastAPI** handles API endpoints for backend communication.
+- **Groq** and **OpenAI** provide LLM capabilities for natural language understanding and response generation.
+- **Streamlit** provides an interactive, user-friendly frontend for seamless user interaction.
+- **Uvicorn** hosts the backend efficiently for fast API responses.
+
+This project demonstrates the capabilities of modern **agentic AI systems**, combining reasoning, tool usage, and AI-driven conversation into a single application. It can serve as a foundation for building **AI assistants, virtual interviewers, or intelligent workflow automation agents**.
+
+---
+
+## Tech Stack
+- **LangChain** – ReAct agents & tools integration
+- **FastAPI** – Backend API
+- **Groq** – LLM inference
+- **OpenAI** – Natural language processing
+- **Streamlit** – Frontend UI
+- **Uvicorn** – Hosting and serving backend
+- **Python** – Programming language
+
+---
+
 # Project Setup Guide
 
 This guide provides step-by-step instructions to set up your project environment, including setting up a Python virtual environment using Pipenv, pip, or conda.
@@ -94,4 +121,18 @@ python frontend.py
 ## IMPORTANT
 ### Make sure backend python script is running in a separate terminal
 
+# Project Structure
 
+agentic-chatbot/
+│
+├─ backend/
+│   ├─ ai_agent.py
+│   └─ backend.py
+│
+├─ frontend/
+│   └─ frontend.py
+│
+├─ .env.example
+├─ .gitignore
+├─ requirements.txt
+└─ README.md
