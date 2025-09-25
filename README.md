@@ -1,4 +1,4 @@
-# Agentic Chatbot
+# The Oracle Desk
 
 ## Project Overview
 The **Agentic Chatbot** is an AI-powered conversational agent designed to interact intelligently with users by leveraging **ReAct agents** and **large language models (LLMs)**. It combines reasoning, tool usage, and natural language understanding to provide context-aware responses and execute actions when required.
